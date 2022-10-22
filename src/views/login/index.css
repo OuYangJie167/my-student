@@ -1,0 +1,97 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(132, 192, 190);
+}
+
+.wrapper>form {
+    position: relative;
+    width: 600px;
+    padding: 35px 50px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+.wrapper input {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 25px;
+
+    color: #647372;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title>a {
+    color: rgb(132, 192, 190);
+}
+
+#login>.login,
+#register>.sign {
+    cursor: pointer;
+    width: 100%;
+    background-color: #eee;
+    overflow: hidden;
+    margin-bottom: 45px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#login>.sign,
+#register>.login {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#login>.login>.title,
+#register>.sign>.title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 10px 0;
+    color: #fff;
+    background-color: rgb(132, 192, 190);
+}
+
+#login>.sign>.title,
+#register>.login>.title {
+    font-weight: normal;
+    font-size: .9rem;
+    color: #999;
+    line-height: 3.5rem;
+}
+
+
+
+/* .wrapper>form input.btn {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px 0;
+} */
+
+h2>a {
+    font-size: 14px;
+    /* vertical-align: bottom; */
+}
